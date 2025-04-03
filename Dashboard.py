@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Caminho do arquivo de dados
-caminho_arquivo = r"C:\Users\Aluno\Desktop\trabalho final\pns2019_dashboard_renomeado_IA (1).csv"
+caminho_arquivo = r"pns2019_dashboard_renomeado_IA (1).csv"
 
 # Carregar os dados
 df = pd.read_csv(caminho_arquivo, sep=';', encoding='utf-8')
